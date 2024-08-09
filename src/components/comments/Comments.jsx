@@ -13,7 +13,7 @@ const Comments = () => {
                         className={styles.input}
                         onChange={(e) => setDesc(e.target.value)}
                     />
-                    <button className={styles.button} onClick={handleSubmit}>
+                    <button className={styles.button}> {/* onClick={handleSubmit}> */}
                         Send
                     </button>
                 </div>

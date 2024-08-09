@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './singlePage.module.css'
 import Menu from '@/components/menu/Menu'
 import Image from 'next/image'
+// import Comments from '@/components/comments/Comments'
 
 const SinglePage = () => {
     return (
@@ -35,6 +36,8 @@ const SinglePage = () => {
                             Aliquid voluptate laboriosam veritatis quos dolore repellat harum
                             necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
                             itaque fugiat iusto illum fugit at.
+                        </p>
+                        <p className={styles.postContent}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Aliquid voluptate laboriosam veritatis quos dolore repellat harum
                             necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
@@ -43,22 +46,8 @@ const SinglePage = () => {
                             Aliquid voluptate laboriosam veritatis quos dolore repellat harum
                             necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
                             itaque fugiat iusto illum fugit at.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aliquid voluptate laboriosam veritatis quos dolore repellat harum
-                            necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
-                            itaque fugiat iusto illum fugit at.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aliquid voluptate laboriosam veritatis quos dolore repellat harum
-                            necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
-                            itaque fugiat iusto illum fugit at.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aliquid voluptate laboriosam veritatis quos dolore repellat harum
-                            necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
-                            itaque fugiat iusto illum fugit at.
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                            Aliquid voluptate laboriosam veritatis quos dolore repellat harum
-                            necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
-                            itaque fugiat iusto illum fugit at.
+                        </p>
+                        <p className={styles.postContent}>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Aliquid voluptate laboriosam veritatis quos dolore repellat harum
                             necessitatibus dignissimos optio aliquam porro soluta veniam fuga,
@@ -71,6 +60,7 @@ const SinglePage = () => {
                     </div>
                 </div>
                 <Menu />
+                {/* <Comments/> */}
             </div>
         </div>
     )
